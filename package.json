@@ -1,0 +1,29 @@
+{
+  "name": "your-bot-name",
+  "version": "1.0.0",
+  "description": "",
+  "main": "./dist/index.js",
+  "scripts": {
+    "dev": "ts-node-dev ./src/index.ts",
+    "build": "tsc",
+    "start": "node ."
+  },
+  "keywords": [
+    "discord",
+    "bot",
+    "typescript"
+  ],
+  "author": "Maiky Perlee",
+  "license": "MIT",
+  "dependencies": {
+    "@discordjs/builders": "^0.9.0",
+    "discord.js": "^13.3.1",
+    "glob": "^7.2.0",
+    "glob-promise": "^4.2.2"
+  },
+  "devDependencies": {
+    "ts-node": "^10.4.0",
+    "ts-node-dev": "^1.1.8",
+    "typescript": "^4.5.4"
+  }
+}
